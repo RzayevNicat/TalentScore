@@ -1,0 +1,47 @@
+.experienceTable {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.table {
+    display: flex;
+    border: 1px solid #d8d8d8;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.table p {
+    border: 1px solid #d8d8d8;
+    padding: 6px 20px;
+    margin-bottom: 0px;
+
+
+}
+
+.table .td1 {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 50%;
+}
+
+.table .td2 {
+    width: 40%;
+    font-size: 16px;
+}
+
+.table .td3 {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 10%;
+    padding-left: 15px;
+    cursor: pointer;
+
+
+
+}
+
+.table .td3 .icon {
+    font-size: 20px;
+
+}

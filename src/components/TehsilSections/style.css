@@ -1,0 +1,94 @@
+.tehsil {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    margin-bottom: 500px;
+    position: absolute;
+    top: 10%;
+    padding-bottom: 50px;
+}
+
+.FormSections {
+    display: flex;
+
+
+}
+
+.tehsil ul {
+    list-style-type: none;
+}
+
+.tehsil ul li {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+
+    border-top-left-radius: 16px;
+    text-align: center;
+    border-bottom-left-radius: 16px;
+    cursor: pointer;
+}
+
+.tehsil ul .mrg {
+    margin-top: 20px;
+}
+
+.tehsil .btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.blueSection {
+    background-color: #103557 !important;
+    color: white;
+
+
+}
+
+.tehsil .btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.back-btn {
+    border: 1px solid #038477;
+    color: #038477;
+    font-weight: 400;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.back-btn:hover {
+    background-color: #038477;
+    color: white;
+    transition: 1s;
+}
+
+.back-btn .icon {
+    margin-right: 15%;
+}
+
+.next-btn {
+    background-color: #038477;
+    border: 1px solid #038477;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.next-btn:hover {
+    background-color: white;
+    border: 1px solid #038477;
+    color: #038477;
+    transition: 1s;
+}
+
+.next-btn .icon {
+    margin-left: 15%;
+}
